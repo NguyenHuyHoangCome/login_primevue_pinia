@@ -39,6 +39,10 @@ import ConfirmPopup from 'primevue/confirmpopup';
 import ConfirmationService from 'primevue/confirmationservice';
 import ContextMenu from 'primevue/contextmenu';
 
+import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
+
+
 import DataView from 'primevue/dataview';
 import DataViewLayoutOptions from 'primevue/dataviewlayoutoptions';
 import Dialog from 'primevue/dialog';
@@ -149,6 +153,10 @@ app.component('ContextMenu', ContextMenu);
 
 app.component('DataView', DataView);
 app.component('DataViewLayoutOptions', DataViewLayoutOptions);
+
+app.component('DataTable', DataTable);
+app.component('Column', Column);
+
 app.component('Dialog', Dialog);
 app.component('Divider', Divider);
 app.component('Dropdown', Dropdown);
